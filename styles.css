@@ -1,0 +1,95 @@
+img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
+button {
+	background-color: transparent;
+	box-shadow: none;
+	border: 0;
+}
+
+body {
+	height: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+.section-horse .img {
+	max-width: 150px;
+}
+
+.img-2 {
+	width: 30%; 
+	max-width: 30%; 
+	height: auto;
+	display: block;
+	margin: 0 0 20px 10%; 
+}
+
+.img-wrapper {
+	margin-bottom: 20px; 
+}
+
+.img-3 img {
+	width: 30px;
+}
+
+.color-text {
+	color: white;
+}
+
+.indent {
+	margin-top: 15px;
+}
+
+.line {
+	border: 0;
+	border-top: 3px solid black;
+	background-color: transparent;
+	max-width: 1300px;
+	margin: 50px auto;
+}
+
+.btn_add {
+	width: 150px;
+	height: 80px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn_delete {
+	width: 150px;
+	height: 80px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.long_text_end {
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	background-image: url("./image/forest.png");
+	min-height: 200px;
+	background-size: contain;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	height: 100%; 
+}
+
+.button {
+	display: flex;
+	gap: 10px;
+}
